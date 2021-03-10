@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+body {
+    background-color: rgba(0, 0, 0, 0.801);
+    font-family: Orbitron;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.main,
+.cap,
+.title {
+    text-align: center;
+}
+
+.main {
+    font-size: 70px;
+
+}
+
+.cap {
+    font-size: 25px;
+    margin-top: -80px;
+}
+
+.title {
+    font-size: 50px;
+    margin: 80px 0 20px 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.col {
+    float: left;
+    width: 33%;
+}
+
+.col p {
+    font-size: 24px;
+    padding: 0px 250px;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.scores,
+.categorys {
+    width: 100%;
+    height: auto;
+}

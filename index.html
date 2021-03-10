@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='de'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="style.css">
+    <title>Pygame Leaderboard</title>
+</head>
+
+<body>
+
+    <p class="main">Coinchaser</p>
+    <p class="cap">by Nicholas and Ziyam</p>
+    <p class="title">Leaderboard</p>
+
+    <div class="container">
+        <div class="categorys">
+            <div class="col">
+                <p>Time</p>
+            </div>
+            <div class="col">
+                <p>Name</p>
+            </div>
+            <div class="col">
+                <p>Points</p>
+            </div>
+        </div>
+        <div class="scores" id="scores">
+            <div class="col" id="times">
+            </div>
+            <div class="col" id="names">
+            </div>
+            <div class="col" id="points">
+            </div>
+
+            <script>
+                let requestURL = 'https://chraebsli.github.io/coinchaser/scores.json';
+                let request = new XMLHttpRequest();
+                request.open('GET', requestURL);
+                request.responseType = 'json';
+                request.send();
+                request.onload = function () {
+                    const scores = request.response;
+                    showscores(scores);
+                }
+
+                function showscores(jsonObj) {
+                    const scores = jsonObj['scores'];
+                    for (let i = 0; i < scores.length; i++) {
+                        var ptime = document.createElement('p');
+                        var pname = document.createElement('p');
+                        var ppoints = document.createElement('p');
+
+                        var stime = document.createTextNode(scores[i].time);
+                        var sname = document.createTextNode(scores[i].name);
+                        var spoints = document.createTextNode(scores[i].points);
+
+                        ptime.appendChild(stime);
+                        pname.appendChild(sname);
+                        ppoints.appendChild(spoints);
+                        document.getElementById("times").appendChild(ptime);
+                        document.getElementById("names").appendChild(pname);
+                        document.getElementById("points").appendChild(ppoints);
+                    }
+                }
+
+            </script>
+
+        </div>
+    </div>
+</body>
+
+</html>
