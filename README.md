@@ -2,7 +2,9 @@
 ## Info
 This Repo is for a Project in School.
 
-
+## Leaderboard
+See the Leaderboard here:
+[global Leaderboard](https://coinchasergame.github.io/web/index.html)
 
 ## Installation
 To play the game, Python and Pygame have to be installed on your Computer.
