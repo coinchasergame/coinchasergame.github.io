@@ -17,7 +17,7 @@
     <div class="container">
         <div class="categorys">
             <div class="col">
-                <p>Time</p>
+                <p>Date</p>
             </div>
             <div class="col">
                 <p>Name</p>
@@ -25,13 +25,18 @@
             <div class="col">
                 <p>Points</p>
             </div>
+            <div class="col">
+                <p>Played Time <br>(minutes)</p>
+            </div>
         </div>
         <div class="scores" id="scores">
-            <div class="col" id="times">
+            <div class="col" id="dates">
             </div>
             <div class="col" id="names">
             </div>
             <div class="col" id="points">
+            </div>
+            <div class="col" id="times">
             </div>
 
             <script>
@@ -48,20 +53,25 @@
                 function showscores(jsonObj) {
                     const scores = jsonObj['scores'];
                     for (let i = 0; i < scores.length; i++) {
-                        var ptime = document.createElement('p');
+                        var pdate = document.createElement('p');
                         var pname = document.createElement('p');
                         var ppoints = document.createElement('p');
+                        var ptime = document.createElement('p');
 
-                        var stime = document.createTextNode(scores[i].time);
+                        var sdate = document.createTextNode(scores[i].date);
                         var sname = document.createTextNode(scores[i].name);
                         var spoints = document.createTextNode(scores[i].points);
+                        var stime = document.createTextNode(scores[i].time);
 
-                        ptime.appendChild(stime);
+                        pdate.appendChild(sdate);
                         pname.appendChild(sname);
                         ppoints.appendChild(spoints);
-                        document.getElementById("times").appendChild(ptime);
+                        ptime.appendChild(stime);
+
+                        document.getElementById("dates").appendChild(pdate);
                         document.getElementById("names").appendChild(pname);
                         document.getElementById("points").appendChild(ppoints);
+                        document.getElementById("times").appendChild(ptime);
                     }
                 }
 
