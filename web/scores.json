@@ -179,6 +179,12 @@
             "points": 231
         },
         {
+            "date": "15.03 11:26",
+            "name": "lecblr",
+            "points": 230,
+            "time": "0:20.6"
+        },
+        {
             "date": "15.03 10:44",
             "name": "awd",
             "points": 229,
@@ -236,136 +242,6 @@
             "date": "09.03 15:02",
             "name": "WDA",
             "points": 150
-        },
-        {
-            "date": "09.03 16:12",
-            "name": "wa",
-            "points": 147
-        },
-        {
-            "date": "09.03 15:01",
-            "name": "AW",
-            "points": 146
-        },
-        {
-            "date": "12.03 16:21",
-            "name": "awda",
-            "points": 146
-        },
-        {
-            "date": "08.03 14:22",
-            "name": "b",
-            "points": 145
-        },
-        {
-            "date": "08.03 14:22",
-            "name": "b",
-            "points": 145
-        },
-        {
-            "date": "12.03 16:04",
-            "name": "awd",
-            "points": 145
-        },
-        {
-            "date": "10.03 11:06",
-            "name": "awd",
-            "points": 144
-        },
-        {
-            "date": "12.03 15:18",
-            "name": "awd",
-            "points": 142
-        },
-        {
-            "date": "12.03 16:01",
-            "name": "awdad",
-            "points": 142
-        },
-        {
-            "date": "12.03 14:56",
-            "name": "Q2E",
-            "points": 140
-        },
-        {
-            "date": "12.03 15:56",
-            "name": "awd",
-            "points": 137
-        },
-        {
-            "date": "12.03 15:04",
-            "name": "awd",
-            "points": 136
-        },
-        {
-            "date": "12.03 15:34",
-            "name": "awd",
-            "points": 136
-        },
-        {
-            "date": "12.03 16:20",
-            "name": "awd",
-            "points": 134
-        },
-        {
-            "date": "12.03 16:20",
-            "name": "awd",
-            "points": 134
-        },
-        {
-            "date": "09.03 12:11",
-            "name": "d",
-            "points": 125
-        },
-        {
-            "date": "15.03 10:34",
-            "name": "sd",
-            "points": 121,
-            "playdate": "00:10"
-        },
-        {
-            "date": "15.03 09:26",
-            "name": "lolol",
-            "points": 82
-        },
-        {
-            "date": "15.03 09:36",
-            "name": "sven",
-            "points": 77
-        },
-        {
-            "date": "12.03 16:29",
-            "name": "awda",
-            "points": 57
-        },
-        {
-            "date": "15.03 10:38",
-            "name": "lecrab",
-            "points": 46,
-            "playdate": "00:07"
-        },
-        {
-            "date": "15.03 10:40",
-            "name": "awd",
-            "points": 43,
-            "playdate": "00:07"
-        },
-        {
-            "date": "15.03 10:47",
-            "name": "awd",
-            "points": 38,
-            "playdate": "00:05"
-        },
-        {
-            "date": "15.03 10:47",
-            "name": "awd",
-            "points": 38,
-            "playdate": "00:05"
-        },
-        {
-            "date": "15.03 09:05",
-            "name": "awd",
-            "points": 25
         }
     ]
 }
