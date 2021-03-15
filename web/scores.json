@@ -1,357 +1,356 @@
 {
-    "scores": [
-        {
-            "time": "15.03 09:07",
+    "scores": [{
+            "date": "15.03 09:07",
             "name": "therealcrab",
             "points": 1384
         },
         {
-            "time": "02.03 15:43",
+            "date": "02.03 15:43",
             "name": "chraebsli",
             "points": 1080
         },
         {
-            "time": "09.03 11:37",
+            "date": "09.03 11:37",
             "name": "dwwa",
             "points": 1040
         },
         {
-            "time": "08.03 16:41",
+            "date": "08.03 16:41",
             "name": "d",
             "points": 967
         },
         {
-            "time": "08.03 16:42",
+            "date": "08.03 16:42",
             "name": "w",
             "points": 771
         },
         {
-            "time": "10.03 16:39",
+            "date": "10.03 16:39",
             "name": "<ax",
             "points": 743
         },
         {
-            "time": "08.03 16:48",
+            "date": "08.03 16:48",
             "name": "d",
             "points": 638
         },
         {
-            "time": "09.03 14:57",
+            "date": "09.03 14:57",
             "name": "se",
             "points": 597
         },
         {
-            "time": "09.03 15:11",
+            "date": "09.03 15:11",
             "name": "ZIYAM",
             "points": 591
         },
         {
-            "time": "09.03 11:34",
+            "date": "09.03 11:34",
             "name": "dwwa",
             "points": 544
         },
         {
-            "time": "10.03 11:05",
+            "date": "10.03 11:05",
             "name": "Ziyam",
             "points": 460
         },
         {
-            "time": "08.03 14:16",
+            "date": "08.03 14:16",
             "name": "d",
             "points": 453
         },
         {
-            "time": "15.03 10:48",
+            "date": "15.03 10:48",
             "name": "adwa",
             "points": 408,
-            "playtime": "00:12"
+            "playdate": "00:12"
         },
         {
-            "time": "08.03 15:25",
+            "date": "08.03 15:25",
             "name": "d",
             "points": 385
         },
         {
-            "time": "09.03 12:35",
+            "date": "09.03 12:35",
             "name": "d",
             "points": 384
         },
         {
-            "time": "15.03 08:43",
+            "date": "15.03 08:43",
             "name": "awd",
             "points": 369
         },
         {
-            "time": "12.03 14:20",
+            "date": "12.03 14:20",
             "name": "awd",
             "points": 366
         },
         {
-            "time": "08.03 13:20",
+            "date": "08.03 13:20",
             "name": "test",
             "points": 337
         },
         {
-            "time": "09.03 12:20",
+            "date": "09.03 12:20",
             "name": "d",
             "points": 331
         },
         {
-            "time": "09.03 15:20",
+            "date": "09.03 15:20",
             "name": "Ziyam",
             "points": 309
         },
         {
-            "time": "02.03 17:06",
+            "date": "02.03 17:06",
             "name": "lol",
             "points": 307
         },
         {
-            "time": "02.03 17:06",
+            "date": "02.03 17:06",
             "name": "lol",
             "points": 307
         },
         {
-            "time": "09.03 21:59",
+            "date": "09.03 21:59",
             "name": "awd",
             "points": 289
         },
         {
-            "time": "12.03 15:36",
+            "date": "12.03 15:36",
             "name": "awdda",
             "points": 283
         },
         {
-            "time": "08.03 13:19",
+            "date": "08.03 13:19",
             "name": "test",
             "points": 267
         },
         {
-            "time": "09.03 12:38",
+            "date": "09.03 12:38",
             "name": "s",
             "points": 264
         },
         {
-            "time": "08.03 14:15",
+            "date": "08.03 14:15",
             "name": "Ziyam",
             "points": 263
         },
         {
-            "time": "10.03 11:02",
+            "date": "10.03 11:02",
             "name": "Ziyam",
             "points": 260
         },
         {
-            "time": "12.03 15:23",
+            "date": "12.03 15:23",
             "name": "awd",
             "points": 254
         },
         {
-            "time": "09.03 12:34",
+            "date": "09.03 12:34",
             "name": "d",
             "points": 242
         },
         {
-            "time": "02.03 17:05",
+            "date": "02.03 17:05",
             "name": "awd",
             "points": 233
         },
         {
-            "time": "02.03 17:05",
+            "date": "02.03 17:05",
             "name": "awd",
             "points": 233
         },
         {
-            "time": "08.03 13:20",
+            "date": "08.03 13:20",
             "name": "test",
             "points": 231
         },
         {
-            "time": "15.03 10:44",
+            "date": "15.03 10:44",
             "name": "awd",
             "points": 229,
-            "playtime": "00:09"
+            "playdate": "00:09"
         },
         {
-            "time": "10.03 14:16",
+            "date": "10.03 14:16",
             "name": "w",
             "points": 224
         },
         {
-            "time": "15.03 10:33",
+            "date": "15.03 10:33",
             "name": "awdawd",
             "points": 181,
-            "playtime": "00:08"
+            "playdate": "00:08"
         },
         {
-            "time": "15.03 10:53",
+            "date": "15.03 10:53",
             "name": "awd",
             "points": 171,
             "played": "0:09.7"
         },
         {
-            "time": "12.03 15:59",
+            "date": "12.03 15:59",
             "name": "awdad",
             "points": 170
         },
         {
-            "time": "10.03 15:56",
+            "date": "10.03 15:56",
             "name": "Chraebs",
             "points": 166
         },
         {
-            "time": "08.03 15:52",
+            "date": "08.03 15:52",
             "name": "Ziyam",
             "points": 162
         },
         {
-            "time": "08.03 15:50",
+            "date": "08.03 15:50",
             "name": "Ziyam",
             "points": 157
         },
         {
-            "time": "08.03 15:50",
+            "date": "08.03 15:50",
             "name": "Ziyam",
             "points": 157
         },
         {
-            "time": "09.03 15:02",
+            "date": "09.03 15:02",
             "name": "WDA",
             "points": 150
         },
         {
-            "time": "09.03 16:12",
+            "date": "09.03 16:12",
             "name": "wa",
             "points": 147
         },
         {
-            "time": "09.03 15:01",
+            "date": "09.03 15:01",
             "name": "AW",
             "points": 146
         },
         {
-            "time": "12.03 16:21",
+            "date": "12.03 16:21",
             "name": "awda",
             "points": 146
         },
         {
-            "time": "08.03 14:22",
+            "date": "08.03 14:22",
             "name": "b",
             "points": 145
         },
         {
-            "time": "08.03 14:22",
+            "date": "08.03 14:22",
             "name": "b",
             "points": 145
         },
         {
-            "time": "12.03 16:04",
+            "date": "12.03 16:04",
             "name": "awd",
             "points": 145
         },
         {
-            "time": "10.03 11:06",
+            "date": "10.03 11:06",
             "name": "awd",
             "points": 144
         },
         {
-            "time": "12.03 15:18",
+            "date": "12.03 15:18",
             "name": "awd",
             "points": 142
         },
         {
-            "time": "12.03 16:01",
+            "date": "12.03 16:01",
             "name": "awdad",
             "points": 142
         },
         {
-            "time": "12.03 14:56",
+            "date": "12.03 14:56",
             "name": "Q2E",
             "points": 140
         },
         {
-            "time": "12.03 15:56",
+            "date": "12.03 15:56",
             "name": "awd",
             "points": 137
         },
         {
-            "time": "12.03 15:04",
+            "date": "12.03 15:04",
             "name": "awd",
             "points": 136
         },
         {
-            "time": "12.03 15:34",
+            "date": "12.03 15:34",
             "name": "awd",
             "points": 136
         },
         {
-            "time": "12.03 16:20",
+            "date": "12.03 16:20",
             "name": "awd",
             "points": 134
         },
         {
-            "time": "12.03 16:20",
+            "date": "12.03 16:20",
             "name": "awd",
             "points": 134
         },
         {
-            "time": "00:05",
+            "date": "00:05",
             "name": "awd",
             "points": 130,
-            "played": "0:05.2"
+            "time": "0:05.2"
         },
         {
-            "time": "09.03 12:11",
+            "date": "09.03 12:11",
             "name": "d",
             "points": 125
         },
         {
-            "time": "15.03 10:34",
+            "date": "15.03 10:34",
             "name": "sd",
             "points": 121,
-            "playtime": "00:10"
+            "playdate": "00:10"
         },
         {
-            "time": "15.03 09:26",
+            "date": "15.03 09:26",
             "name": "lolol",
             "points": 82
         },
         {
-            "time": "15.03 09:36",
+            "date": "15.03 09:36",
             "name": "sven",
             "points": 77
         },
         {
-            "time": "12.03 16:29",
+            "date": "12.03 16:29",
             "name": "awda",
             "points": 57
         },
         {
-            "time": "15.03 10:38",
+            "date": "15.03 10:38",
             "name": "lecrab",
             "points": 46,
-            "playtime": "00:07"
+            "playdate": "00:07"
         },
         {
-            "time": "15.03 10:40",
+            "date": "15.03 10:40",
             "name": "awd",
             "points": 43,
-            "playtime": "00:07"
+            "playdate": "00:07"
         },
         {
-            "time": "15.03 10:47",
+            "date": "15.03 10:47",
             "name": "awd",
             "points": 38,
-            "playtime": "00:05"
+            "playdate": "00:05"
         },
         {
-            "time": "15.03 10:47",
+            "date": "15.03 10:47",
             "name": "awd",
             "points": 38,
-            "playtime": "00:05"
+            "playdate": "00:05"
         },
         {
-            "time": "15.03 09:05",
+            "date": "15.03 09:05",
             "name": "awd",
             "points": 25
         }
