@@ -289,6 +289,12 @@
             "points": 134
         },
         {
+            "time": "00:05",
+            "name": "awd",
+            "points": 130,
+            "played": "0:05.2"
+        },
+        {
             "time": "09.03 12:11",
             "name": "d",
             "points": 125
