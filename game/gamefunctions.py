@@ -80,17 +80,17 @@ def scores(points,name,played_time,path):
     now=date+' '+time
 
     # get data in json 
-    with open(path+'scores/web/scores.json') as file:
+    with open(path+'scores.json') as file:
         data = json.load(file)
     data['scores'].append({'date':now,'name':name,'points':points,'time':played_time})
-    with open(path+'scores/web/scores.json','w') as file:
+    with open(path+'scores.json','w') as file:
         json.dump(data,file,indent=4)
 
     # sortiert die liste nach höchstpunktzahl
-    with open(path+'scores/web/scores.json') as file:
+    with open(path+'scores.json') as file:
         data_score = json.load(file)
         data_score['scores'] = list(sorted(data_score['scores'],key=lambda p: p['points'],reverse=True))
-    with open(path+'scores/web/scores.json','w') as file:
+    with open(path+'scores.json','w') as file:
         json.dump(data_score,file,indent=4)
     
     
@@ -136,30 +136,3 @@ def end_timer(t1,msg):
     t2 = datetime.datetime.now()
     print ('\nTime collabsed' + msg + ': ' + str(t2 - t1)[5:] + ' seconds\n')
 
-
-# clones scores
-def clone_repo(path,remote):
-    global repo
-    try:
-        repo = Repo.clone_from(remote, path)
-        print('Cloned repo for scores')
-    except:
-        repo = git.Repo(path+'/.git')
-        return False
-
-
-# pulls scores
-def pull_repo(prepo):
-    repo = git.Repo(prepo)
-    r = repo.remotes.origin
-    r.pull()
-
-
-# pushs scores
-def push_repo(remote,prepo,playername):
-    global repo
-    print(repo)
-    repo.git.add(prepo+"/web/scores.json")
-    repo.index.commit(f"added score from {playername}")
-    repo.remotes.origin.push(refspec='master:master')
-    print('Pushed Succesful')
